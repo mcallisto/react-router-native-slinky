@@ -3,12 +3,12 @@ enablePlugins(ScalablyTypedConverterGenSourcePlugin)
 
 scalaVersion := "2.13.2"
 name := "react-router-native-slinky"
-version := "0.1.0"
+version := "0.1.1"
 
 /* javascript / typescript deps */
 Compile / npmDependencies ++= Seq(
-  "@types/react" -> "16.9.34",
-  "@types/react-native" -> "^0.60.25",
+  "@types/react" -> "16.9.42",
+  "@types/react-native" -> "^0.62.4",
   "@types/react-router-native" -> "^5.1.0",
   "react-router-native" -> "5.1.2"
 )
@@ -18,8 +18,6 @@ scalaJSLinkerConfig ~= (_.withSourceMap(false))
 
 // because npm is slow
 useYarn := true
-
-stExperimentalEnableImplicitOps := true
 
 // say we want custom code for slinky
 stFlavour := Flavour.SlinkyNative
