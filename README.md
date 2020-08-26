@@ -16,13 +16,13 @@ libraryDependencies ++= Seq(
 See the following compilation output:
 
 ```
-[warn] Wrote react-router-native (36 files) [ms => 18750]
-[warn] Wrote minimized prop-types (3 files) [ms => 19175]
-[warn] Wrote minimized history (7 files) [ms => 19181]
-[warn] Wrote minimized csstype (0 files) [ms => 19193]
-[warn] Wrote minimized react-router (32 files) [ms => 19198]
-[warn] Wrote minimized react (29 files) [ms => 19199]
-[warn] Wrote minimized std (11 files) [ms => 19209]
-[warn] Wrote minimized react-native (307 files) [ms => 19382]
+[warn] Wrote react-router-native (36 files)
+[warn] Wrote minimized prop-types (3 files)
+[warn] Wrote minimized history (7 files)
+[warn] Wrote minimized csstype (0 files)
+[warn] Wrote minimized react-router (32 files)
+[warn] Wrote minimized react (29 files)
+[warn] Wrote minimized std (11 files)
+[warn] Wrote minimized react-native (307 files)
 
 ```
