@@ -1,14 +1,14 @@
 /* ScalablyTyped configuration */
 enablePlugins(ScalablyTypedConverterGenSourcePlugin)
 
-scalaVersion := "2.13.2"
+scalaVersion := "2.13.3"
 name := "react-router-native-slinky"
-version := "0.1.1"
+version := "0.1.2"
 
 /* javascript / typescript deps */
 Compile / npmDependencies ++= Seq(
-  "@types/react" -> "16.9.42",
-  "@types/react-native" -> "^0.62.4",
+  "@types/react" -> "~16.9.41",
+  "@types/react-native" -> "~0.62.13",
   "@types/react-router-native" -> "^5.1.0",
   "react-router-native" -> "5.1.2"
 )
