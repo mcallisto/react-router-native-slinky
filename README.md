@@ -5,7 +5,7 @@
 It is distributed for Scala 2.13 and Scala.js 1
 
 ```
-libraryDependencies ++= Seq("vision.id" %%% "react-router-native-slinky" % "0.1.2") 
+libraryDependencies ++= Seq("vision.id" %%% "react-router-native-slinky" % "0.1.3") 
 ```
 
 ## Minimization
@@ -18,8 +18,8 @@ See the following compilation output:
 [warn] Wrote minimized history (7 files)
 [warn] Wrote minimized csstype (0 files)
 [warn] Wrote minimized react-router (32 files)
-[warn] Wrote minimized react (29 files)
+[warn] Wrote minimized react (31 files)
 [warn] Wrote minimized std (11 files)
-[warn] Wrote minimized react-native (307 files)
+[warn] Wrote minimized react-native (318 files)
 
 ```
