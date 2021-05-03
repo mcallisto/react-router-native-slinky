@@ -1,6 +1,6 @@
 # react-router-native-slinky
 
-[React-router-native](https://reactrouter.com/native/guides/quick-start) bindings for slinky (powered by ScalablyTyped)
+[React-router-native](https://reactrouter.com/native/guides/quick-start) bindings for [slinky](https://slinky.dev/) (powered by [ScalablyTyped](https://scalablytyped.org))
 
 It is distributed for Scala 2.13 and Scala.js 1
 
